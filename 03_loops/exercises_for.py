@@ -69,6 +69,6 @@ palabras = ["casa", "arbol", "sol", "elefante", "luna", "coche"]
 
 letra = str(input("Introduce una letra: "))
 
-empiezaCon = [palabra for palabra in palabras if palabra.startswith(letra)]
+empiezaCon = [palabra for palabra in palabras if palabra.lower().startswith(letra)]
 
 print(empiezaCon)
